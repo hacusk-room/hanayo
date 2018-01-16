@@ -1,5 +1,4 @@
 # coding: utf-8
-import sys
 import urllib.request
 import json
 
@@ -10,8 +9,9 @@ def yahooapi():
   host = "https://shopping.yahooapis.jp"
   path = "/ShoppingWebService/V1/json/itemSearch?"
   appid = format(json_setting["appid"])
+  sort = "&sort=%2bprice"
   jan = input(">> ")
-  url = host + path + "appid=" + appid + "&jan=" + jan
+  url = host + path + "appid=" + appid + "&jan=" + jan + sort
   response = urllib.request.urlopen(url)
 
   return response.read()

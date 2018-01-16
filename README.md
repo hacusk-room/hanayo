@@ -16,7 +16,6 @@ Yahoo!ショッピングWeb APIに登録しappidを取得してください。
 そして以下のようなフォーマットでjsonファイルを作成してください。
 
 *setting.json*  
-
 {  
   "appid": "[ここにappidをいれる]"  
 }  
