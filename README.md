@@ -15,7 +15,8 @@ Hanayo is managing of hacusk`s resources that made by Sorisori Solutions Inc.
 Yahoo!ショッピングWeb APIに登録しappidを取得してください。
 そして以下のようなフォーマットでjsonファイルを作成してください。
 
-*setting.json*
-{
-  "appid": "[ここにappidをいれる]"
-}
+*setting.json*  
+
+{  
+  "appid": "[ここにappidをいれる]"  
+}  
