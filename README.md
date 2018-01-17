@@ -12,9 +12,8 @@ Hanayo is managing of hacusk`s resources that made by Sorisori Solutions Inc.
 - @_n_elに「コアップ」ガラナを買う(過度に)  
 
 # 使用方法
-Yahoo!ショッピングWeb APIに登録しappidを取得してください。
-そして以下のようなフォーマットでjsonファイルを作成してください。
-
+Yahoo!ショッピングWeb APIに登録しappidを取得してください。  
+setting.jsonのappidの以下の部分にappidを追記してください。
 *setting.json*  
 {  
   "appid": "[ここにappidをいれる]"  

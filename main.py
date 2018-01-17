@@ -8,9 +8,13 @@ def yahooapi():
 
   host = "https://shopping.yahooapis.jp"
   path = "/ShoppingWebService/V1/json/itemSearch?"
+
+  # Query parameter
   appid = format(json_setting["appid"])
   sort = "&sort=%2bprice"
   jan = input(">> ")
+
+  # Request URL
   url = host + path + "appid=" + appid + "&jan=" + jan + sort
   response = urllib.request.urlopen(url)
 
